@@ -504,7 +504,7 @@
           <mxGeometry height="740" width="720" x="460" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="VmZgIZg_Rn4pafja1Kh6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
-          <mxGeometry height="720" width="130" x="460" y="1410" as="geometry" />
+          <mxGeometry height="740" width="130" x="460" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="VmZgIZg_Rn4pafja1Kh6-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Filters" vertex="1">
           <mxGeometry height="30" width="60" x="495" y="1450" as="geometry" />
