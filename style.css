@@ -9,15 +9,30 @@
 .haloImgText > h1 {
     font-size: 4rem;
     font-weight: bold;
-    /*top, right & left, bottom*/
-    padding: 10rem 0 20rem;
     text-shadow: 0.25rem 0.25rem 0.5rem black;
 }
-#t2BtnContainer {
-    height: 3rem;
-    /*padding: 5rem 0 0;*/
-}
 
+@media only screen and (max-aspect-ratio: 4/3) {
+    .haloImgText > h1 {
+        /*top, right & left, bottom*/
+        padding: 10rem 0 15rem;
+    }
+
+    #t2BtnContainer {
+        height: 6rem;
+        /*padding: 5rem 0 0;*/
+    }
+}
+@media only screen and (min-aspect-ratio: 4/3) {
+    .haloImgText > h1 {
+        /*top, right & left, bottom*/
+        padding: 10rem 0 20rem;
+    }
+    #t2BtnContainer {
+        height: 3rem;
+        /*padding: 5rem 0 0;*/
+    }
+}
 #t2ExperiencesBtn {
     background-color: indianred;
     color: white
@@ -37,4 +52,23 @@
     color: white;
     transition: all 0.25s;
 }
+
+#languageSelector {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.langSelect {
+    color: white;
+}
+.langSelect.active {
+    background-color: transparent;
+    font-weight: bold;
+}
+.langSelect:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.25s;
+}
+
 
