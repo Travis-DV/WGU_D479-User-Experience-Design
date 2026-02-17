@@ -1,2 +1,9 @@
 Island1: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/BoraBora_SEtienne.jpg/1280px-BoraBora_SEtienne.jpg
 Beach1: https://www.freepik.com/free-photo/north-beach-ocean-nazare-portugal_7487015.htm#fromView=keyword&page=1&position=6&uuid=7a86c2b0-12ee-4064-ba58-736bde9ccac7&query=Top+down+beach?sign-up=email
+Food1: https://pixabay.com/photos/sandwich-food-flying-food-snack-2977251/
+Restaurant1: https://pixabay.com/photos/hamburger-snack-burger-gourmet-494706/
+Restaurant2: https://pixabay.com/photos/food-salmon-teriyaki-fish-eat-712665/
+Restaurant3: https://pixabay.com/illustrations/ice-cream-dessert-sweet-delicious-8534875/
+Grocery1: https://unsplash.com/photos/deli-market-storefront-gda6UlHM6Ug
+Grocery2: https://unsplash.com/photos/wallers-market-storefront-with-red-brick-building-FJGH4Obu0TE
+Grocery3: https://unsplash.com/photos/woman-in-white-coat-holding-green-shopping-cart-Gk8LG7dsHWA
