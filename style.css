@@ -13,6 +13,10 @@
     padding: 10rem 0 20rem;
     text-shadow: 0.25rem 0.25rem 0.5rem black;
 }
+#t2BtnContainer {
+    height: 3rem;
+    /*padding: 5rem 0 0;*/
+}
 
 #t2ExperiencesBtn {
     background-color: indianred;
@@ -33,3 +37,4 @@
     color: white;
     transition: all 0.25s;
 }
+
