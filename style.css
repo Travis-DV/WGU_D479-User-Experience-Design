@@ -25,6 +25,10 @@
         height: 20vh;
         width: 98vw;
     }
+    .t3PtTo, .t3PtLog, .t3PtGro {
+        height: 12.5vh;
+        width: 98vw;
+    }
 }
 @media only screen and (min-aspect-ratio: 4/3) {
     .indexFold {
@@ -41,6 +45,10 @@
     }
     .t3Pt1, .t3Pt2 {
         height: 40vh;
+        width: 98vw;
+    }
+    .t3PtTo, .t3PtLog, .t3PtGro {
+        height: 25vh;
         width: 98vw;
     }
 }
@@ -98,12 +106,10 @@
     width: 100vw;
     max-width: 100vw;
     height: 90vh;
-    max-height: 90vh;
+    max-height: 85vh;
 }
-.t3Pt1, .t3Pt2 {
-
-}
-.t3Pt1 > h3, .t3Pt2 > h3 {
+.t3Pt1 > h3, .t3Pt2 > h3,
+.t3PtTo > h3, .t3PtLog > h3, .t3PtGrow > h3 {
     padding-top: 0.5rem;
 }
 
@@ -111,7 +117,8 @@
     width: 100%;
     text-align: center;
 }
-.t3Pt1 > div > a:hover, .t3Pt2 > div > a:hover {
+.t3Pt1 > div > a:hover, .t3Pt2 > div > a:hover,
+.t3PtTo > div > a:hover, .t3PtLog > div > a:hover, .t3PtGrow > div > a:hover {
     cursor:  pointer;
 }
 
@@ -122,27 +129,4 @@
 .navbar .navbar-nav .nav-link:hover {
     background-color: #6699CC;
     transition: background-color 0.5s;
-}
-
-.homeMain{
-    position: relative;
-}
-.homeNav {
-    position: absolute;
-    top: 100vh; /* defined when the element will appear */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* needed to push the sticky element down */
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    /* to hide element if content is short*/
-    clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
-
-    height: 10vh;
-}
-.homeNav #headerContent {
-    position: sticky;
-    bottom: 0;
 }

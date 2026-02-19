@@ -14,3 +14,11 @@ Ent3: https://unsplash.com/photos/people-performing-on-stage-near-partying-peopl
 Sight1: https://unsplash.com/photos/brown-and-green-rock-formation-on-sea-under-blue-sky-during-daytime-NM_EUCSdbEY
 Sight2: https://unsplash.com/photos/a-yellow-double-decker-bus-with-colorful-murals-HD85flZ_oiE
 Sight3: https://unsplash.com/photos/man-in-black-jacket-riding-bicycle-on-gray-asphalt-road-during-daytime-P1qDLYYoWMQ
+Plan1: https://unsplash.com/photos/gray-airplane-on-parking-RSYBi_1fhfM
+Travel1: https://unsplash.com/photos/window-view-of-airplane-during-golden-hour-rn-NLirHQPY
+Travel2: https://unsplash.com/photos/a-cruise-ship-in-a-body-of-water-hQUdei-DzlQ
+Hotel1: https://unsplash.com/photos/a-large-swimming-pool-surrounded-by-palm-trees-_pPHgeHz1uk
+Hotel2: https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ
+Hotel3: https://unsplash.com/photos/brown-wooden-lounge-chairs-on-brown-wooden-dock-during-daytime-xEaAoizNFV8
+Ground1: https://unsplash.com/photos/people-sitting-down-inside-vehicle-nd5oU1Duhf0
+Ground2: https://unsplash.com/photos/shallow-focus-photography-of-taxi-signage-G8wPrJyNqWQ
