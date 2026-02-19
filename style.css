@@ -57,22 +57,31 @@
     background-size: cover;
     background-position: center;
 }
-#t2ExperiencesBtn {
-    background-color: indianred;
-    color: white
+
+#t2TasteBtn {
+    background-color: rgb(92, 205, 92);
+    color: white;
 }
-#t2ExperiencesBtn:hover {
-    background-color: palevioletred;
+#t2TasteBtn:hover {
+    background-color: rgb(112, 225, 112);
     color: white;
     transition: all 0.25s;
 }
-
+#t2SeeBtn {
+    background-color: rgb(205, 92, 92);
+    color: white;
+}
+#t2SeeBtn:hover {
+    background-color: rgb(225, 112, 112);
+    color: white;
+    transition: all 0.25s;
+}
 #t2PlanningBtn {
-    background-color: royalblue;
+    background-color: rgb(92, 92, 205);
     color: white
 }
 #t2PlanningBtn:hover {
-    background-color: cornflowerblue;
+    background-color: rgb(112, 112, 225);
     color: white;
     transition: all 0.25s;
 }
