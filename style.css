@@ -114,3 +114,35 @@
 .t3Pt1 > div > a:hover, .t3Pt2 > div > a:hover {
     cursor:  pointer;
 }
+
+.navbar .navbar-nav .active {
+    text-decoration: underline overline;
+    text-underline-offset: 0.42em;
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #6699CC;
+    transition: background-color 0.5s;
+}
+
+.homeMain{
+    position: relative;
+}
+.homeNav {
+    position: absolute;
+    top: 100vh; /* defined when the element will appear */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* needed to push the sticky element down */
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    /* to hide element if content is short*/
+    clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+
+    height: 10vh;
+}
+.homeNav #headerContent {
+    position: sticky;
+    bottom: 0;
+}
