@@ -6,3 +6,9 @@ const urlParams = new URLSearchParams(queryString);
 const type = urlParams.get('type')
 const number = urlParams.get('number')
 
+const dictionary = {
+    "restaurant": {},
+    "grocery": {},
+
+}
+
