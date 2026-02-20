@@ -1,6 +1,3 @@
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
 # Ignored default folder with query files
 /queries/
 # Datasource local storage ignored files
@@ -8,11 +5,5 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/.idea/modules.xml
-/.idea/vcs.xml
-/.idea/WGU_D479-User-Experience-Design.iml
+/.idea
 /desktop.ini
-
-/.idea/git_toolbox_prj.xml
-/.idea/git_toolbox_blame.xml
-/.idea/shelf/
