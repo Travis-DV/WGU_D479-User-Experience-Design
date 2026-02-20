@@ -10,330 +10,361 @@
 <body class="d-flex flex-column">
 
 
-<main class="m-0 p-0 w-100 homeMain overflow-hidden">
-    <div class="indexFold haloImgDiv m-0 p-0 border-0 backgroundImg" id="home" style="background-image: url('images/beach1.jpg');">
-        <div class="container d-flex justify-content-center m-0 p-0 mw-100 text-white">
-            <div class="col m-0 p-0 haloImgText">
-                <h1 class="row card-title m-0 rounded-0 justify-content-center">
-                    Visit Taniti!
-                </h1>
-                <div class="row" id="t2BtnContainer">
-                    <div class="col-2"></div>
-                    <a href="#food" class="col m-0 ps-0 py-0 pe-1 h-100">
-                        <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2TasteBtn">
-                            Taste
+    <main class="m-0 p-0 w-100 homeMain overflow-hidden">
+        <div class="indexFold haloImgDiv m-0 p-0 border-0 backgroundImg" id="home" style="background-image: url('images/beach1.jpg');">
+            <div class="container d-flex justify-content-center m-0 p-0 mw-100 text-white">
+                <div class="col m-0 p-0 haloImgText">
+                    <h1 class="row card-title m-0 rounded-0 justify-content-center">
+                        Visit Taniti!
+                    </h1>
+                    <div class="row" id="t2BtnContainer">
+                        <div class="col-2"></div>
+                        <a href="#food" class="col m-0 ps-0 py-0 pe-1 h-100">
+                            <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2TasteBtn">
+                                Taste
+                            </button>
+                        </a>
+                        <a href="#see" class="col m-0 ps-1 py-0 pe-1 h-100">
+                            <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2SeeBtn">
+                                See
+                            </button>
+                        </a>
+                        <a href="#plan" class="col m-0 ps-1 py-0 pe-0 h-100">
+                            <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2PlanningBtn">
+                                Planning
+                            </button>
+                        </a>
+                        <div class="col-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown-center bg-transparent border-0" id="languageSelector">
+                <button class="btn btn-secondary dropdown-toggle bg-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language
+                </button>
+                <ul class="dropdown-menu bg-transparent text-white border-0">
+                    <li><a class="dropdown-item border-0 langSelect rounded-1 active" href="#" aria-current="true">English</a></li>
+                    <li><a class="dropdown-item border-0 langSelect rounded-1" href="#">Spanish</a></li>
+                    <li><a class="dropdown-item border-0 langSelect rounded-1" href="#">French</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="indexFold backgroundImg" id="food" style="background-image: url('images/food1.jpg');">
+            <div class="t2Greyout text-white">
+                <div>
+                    <h1 class="p-4 float-start">
+                        Taste Taniti!
+                    </h1>
+                    <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
+                        <button class="btn h-100 w-100  p-1">
+                            FAQs
                         </button>
                     </a>
-                    <a href="#see" class="col m-0 ps-1 py-0 pe-1 h-100">
-                        <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2SeeBtn">
-                            See
-                        </button>
-                    </a>
-                    <a href="#plan" class="col m-0 ps-1 py-0 pe-0 h-100">
-                        <button type="button" class="btn btn-light border-0 h-100 w-100" id="t2PlanningBtn">
-                            Planning
-                        </button>
-                    </a>
-                    <div class="col-2"></div>
+                </div>
+
+                <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
+                    <div class="container t3PtA p-0 mx-5">
+                        <div class="row t3Pt1 mb-4"
+                             style="background-color: rgba(75, 10, 35.5, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Restaurants:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/restaurant1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=restaurant&number=1">
+                                    <h5 class="card-title">Restaurant one</h5>
+                                    <p class="card-text">This is the most popular restaurant on the island. Click For More Info!</p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/restaurant2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=restaurant&number=2">
+                                    <h5 class="card-title">Restaurant two</h5>
+                                    <p class="card-text">This is the second popular restaurant on the island. Click For More Info!</p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/restaurant3.jpg');">
+                                <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=restaurant&number=a">
+                                    <h5 class="card-title manyMore"><strong>
+                                        Click Many More!!
+                                    </strong></h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row t3Pt2 mt-4"
+                             style="background-color: rgba(35.5, 10, 75, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Grocery Stores:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/grocery1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=grocery&number=1">
+                                    <h5 class="card-title">Grocery one</h5>
+                                    <p class="card-text">This is the most popular Grocery on the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/grocery2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=grocery&number=2">
+                                    <h5 class="card-title">Grocery two</h5>
+                                    <p class="card-text">This is the second popular Grocery on the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/grocery3.jpg');">
+                                <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=grocery&number=a">
+                                    <h5 class="card-title manyMore"><strong>
+                                        Click Many More!!
+                                    </strong></h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="dropdown-center bg-transparent border-0" id="languageSelector">
-            <button class="btn btn-secondary dropdown-toggle bg-transparent text-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Language
-            </button>
-            <ul class="dropdown-menu bg-transparent text-white border-0">
-                <li><a class="dropdown-item border-0 langSelect rounded-1 active" href="#" aria-current="true">English</a></li>
-                <li><a class="dropdown-item border-0 langSelect rounded-1" href="#">Spanish</a></li>
-                <li><a class="dropdown-item border-0 langSelect rounded-1" href="#">French</a></li>
+        <div class="indexFold backgroundImg" id="see" style="background-image: url('images/see1.jpg');">
+            <div class="t2Greyout text-white">
+                <div>
+                    <h1 class="p-4 float-start">
+                        See Taniti!
+                    </h1>
+                    <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
+                        <button class="btn h-100 w-100  p-1">
+                            FAQs
+                        </button>
+                    </a>
+                </div>
+
+                <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
+                    <div class="container t3PtA p-0 mx-5">
+                        <div class="row t3Pt1 mb-4"
+                             style="background-color: rgba(191, 91, 82, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Entertainment:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/ent1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=ent&number=1">
+                                    <h5 class="card-title">Helicopter Rides</h5>
+                                    <p class="card-text">Go on an exciting helicopter ride around the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/ent2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=ent&number=2">
+                                    <h5 class="card-title">Snorkeling</h5>
+                                    <p class="card-text">Go snorkeling around the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/ent3.jpg');">
+                                <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=ent&number=a">
+                                    <h5 class="card-title manyMore"><strong>
+                                        Click Many More!!
+                                    </strong></h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row t3Pt2 mt-4"
+                             style="background-color: rgba(91, 191, 82, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Sightseeing:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/sight1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=sight&number=1">
+                                    <h5 class="card-title">Yellow Leaf Bay Beach</h5>
+                                    <p class="card-text">The most popular of many beaches around Yellow Leaf Bay. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/sight2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=sight&number=2">
+                                    <h5 class="card-title">Bus Tour</h5>
+                                    <p class="card-text">he most popular of many bus tours around Yellow Leaf Bay. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/sight3.jpg');">
+                                <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=sight&number=a">
+                                    <h5 class="card-title manyMore"><strong>
+                                        Click Many More!!
+                                    </strong></h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="indexFold backgroundImg" id="plan" style="background-image: url('images/plan1.jpg');">
+            <div class="t2Greyout text-white">
+                <div>
+                    <h1 class="p-4 float-start">
+                        Plan for Taniti!
+                    </h1>
+                    <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
+                        <button class="btn h-100 w-100  p-1">
+                            FAQs
+                        </button>
+                    </a>
+                </div>
+
+                <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
+                    <div class="container t3PtA p-0 mx-5">
+                        <div class="row t3PtTo mb-4"
+                             style="background-color: rgba(61, 94, 61, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Travel to Taniti:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/travel1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=travel&number=1">
+                                    <h5 class="card-title">Fly</h5>
+                                    <p class="card-text">Fly into Taniti International Airport <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/travel2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=travel&number=2">
+                                    <h5 class="card-title">Cruise</h5>
+                                    <p class="card-text">Sail into Yellow Leaf bay <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row t3PtLog mt-4"
+                             style="background-color: rgba(61, 61, 94, 0.50); border-radius: 1rem;">
+                            <h3 class="col">Hotels:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/hotel1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=hotel&number=1">
+                                    <h5 class="card-title">Hotel 1</h5>
+                                    <p class="card-text">This is the most popular hotel on the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/hotel2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=hotel&number=2">
+                                    <h5 class="card-title">Hotel 2</h5>
+                                    <p class="card-text">This is the second most popular hotel on the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/hotel3.jpg');">
+                                <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=hotel&number=a">
+                                    <h5 class="card-title manyMore"><strong>
+                                        Click Many More!!
+                                    </strong></h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row t3PtGro mt-4"
+                             style="background-color: rgba(94, 61, 94, 0.50); border-radius: 1rem;">
+                            <h3 class="col">On Taniti transportation:</h3>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/ground1.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=ground&number=1">
+                                    <h5 class="card-title">Public Transport</h5>
+                                    <p class="card-text">There is a robust public bus system to help get people around the island. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                            <div class="col h-auto m-2 card backgroundImg border-0"
+                                 style="background-image: url('images/ground2.jpg');">
+                                <a class="card-img-overlay text-white text-decoration-none"
+                                   style="background-color: rgba(20, 20, 20, 0.60);"
+                                   href="tier3.html?type=ground&number=2">
+                                    <h5 class="card-title">Private Transport</h5>
+                                    <p class="card-text">There are many privately owned modes of transport from Taxi's to rental cars. <strong>Click For More Info!</strong></p>
+                                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="w-100 mw-100 p-0"
+            style="background-image: url('images/beach2.jpg')">
+        <div class="container m-0 w-100 mw-100 py-2 px-0"
+             style="background-color: rgba(20, 20, 20, 0.60); height: 100%">
+            <ul class="nav justify-content-center border-bottom p-2 m-0 h-100">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link px-2 footerNav">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#food" class="nav-link px-2 footerNav">
+                        Taste
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#see" class="nav-link px-2 footerNav">
+                        See
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#plan" class="nav-link px-2 footerNav">
+                        Plan
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="FAQ.html" class="nav-link px-2 footerNav">
+                        FAQs
+                    </a>
+                </li>
             </ul>
+            <p class="text-center text-white pt-2">© 2026 Taniti Island</p>
         </div>
-    </div>
-    <div class="indexFold backgroundImg" id="food" style="background-image: url('images/food1.jpg');">
-        <div class="t2Greyout text-white">
-            <div>
-                <h1 class="p-4 float-start">
-                    Taste Taniti!
-                </h1>
-                <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
-                    <button class="btn h-100 w-100  p-1">
-                        FAQs
-                    </button>
-                </a>
-            </div>
-
-            <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
-                <div class="container t3PtA p-0 mx-5">
-                    <div class="row t3Pt1 mb-4"
-                         style="background-color: rgba(75, 10, 35.5, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Restaurants:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/restaurant1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=restaurant&number=1">
-                                <h5 class="card-title">Restaurant one</h5>
-                                <p class="card-text">This is the most popular restaurant on the island. Click For More Info!</p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/restaurant2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=restaurant&number=2">
-                                <h5 class="card-title">Restaurant two</h5>
-                                <p class="card-text">This is the second popular restaurant on the island. Click For More Info!</p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/restaurant3.jpg');">
-                            <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=restaurant&number=a">
-                                <h5 class="card-title manyMore"><strong>
-                                    Click Many More!!
-                                </strong></h5>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row t3Pt2 mt-4"
-                         style="background-color: rgba(35.5, 10, 75, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Grocery Stores:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/grocery1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=grocery&number=1">
-                                <h5 class="card-title">Grocery one</h5>
-                                <p class="card-text">This is the most popular Grocery on the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/grocery2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=grocery&number=2">
-                                <h5 class="card-title">Grocery two</h5>
-                                <p class="card-text">This is the second popular Grocery on the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/grocery3.jpg');">
-                            <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=grocery&number=a">
-                                <h5 class="card-title manyMore"><strong>
-                                    Click Many More!!
-                                </strong></h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="indexFold backgroundImg" id="see" style="background-image: url('images/see1.jpg');">
-        <div class="t2Greyout text-white">
-            <div>
-                <h1 class="p-4 float-start">
-                    See Taniti!
-                </h1>
-                <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
-                    <button class="btn h-100 w-100  p-1">
-                        FAQs
-                    </button>
-                </a>
-            </div>
-
-            <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
-                <div class="container t3PtA p-0 mx-5">
-                    <div class="row t3Pt1 mb-4"
-                         style="background-color: rgba(191, 91, 82, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Entertainment:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/ent1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=ent&number=1">
-                                <h5 class="card-title">Helicopter Rides</h5>
-                                <p class="card-text">Go on an exciting helicopter ride around the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/ent2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=ent&number=2">
-                                <h5 class="card-title">Snorkeling</h5>
-                                <p class="card-text">Go snorkeling around the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/ent3.jpg');">
-                            <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=ent&number=a">
-                                <h5 class="card-title manyMore"><strong>
-                                    Click Many More!!
-                                </strong></h5>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row t3Pt2 mt-4"
-                         style="background-color: rgba(91, 191, 82, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Sightseeing:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/sight1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=sight&number=1">
-                                <h5 class="card-title">Yellow Leaf Bay Beach</h5>
-                                <p class="card-text">The most popular of many beaches around Yellow Leaf Bay. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/sight2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=sight&number=2">
-                                <h5 class="card-title">Bus Tour</h5>
-                                <p class="card-text">he most popular of many bus tours around Yellow Leaf Bay. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/sight3.jpg');">
-                            <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=sight&number=a">
-                                <h5 class="card-title manyMore"><strong>
-                                    Click Many More!!
-                                </strong></h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="indexFold backgroundImg" id="plan" style="background-image: url('images/plan1.jpg');">
-        <div class="t2Greyout text-white">
-            <div>
-                <h1 class="p-4 float-start">
-                    Plan for Taniti!
-                </h1>
-                <a href="FAQ.html" class="p-4 float-end t2FAQBtn">
-                    <button class="btn h-100 w-100  p-1">
-                        FAQs
-                    </button>
-                </a>
-            </div>
-
-            <div class="container t3PtA p-0 m-0 d-flex justify-content-center">
-                <div class="container t3PtA p-0 mx-5">
-                    <div class="row t3PtTo mb-4"
-                         style="background-color: rgba(61, 94, 61, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Travel to Taniti:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/travel1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=travel&number=1">
-                                <h5 class="card-title">Fly</h5>
-                                <p class="card-text">Fly into Taniti International Airport <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/travel2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=travel&number=2">
-                                <h5 class="card-title">Cruise</h5>
-                                <p class="card-text">Sail into Yellow Leaf bay <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row t3PtLog mt-4"
-                         style="background-color: rgba(61, 61, 94, 0.50); border-radius: 1rem;">
-                        <h3 class="col">Hotels:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/hotel1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=hotel&number=1">
-                                <h5 class="card-title">Hotel 1</h5>
-                                <p class="card-text">This is the most popular hotel on the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/hotel2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=hotel&number=2">
-                                <h5 class="card-title">Hotel 2</h5>
-                                <p class="card-text">This is the second most popular hotel on the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/hotel3.jpg');">
-                            <a class="card-img-overlay text-white d-flex align-items-center text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=hotel&number=a">
-                                <h5 class="card-title manyMore"><strong>
-                                    Click Many More!!
-                                </strong></h5>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row t3PtGro mt-4"
-                         style="background-color: rgba(94, 61, 94, 0.50); border-radius: 1rem;">
-                        <h3 class="col">On Taniti transportation:</h3>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/ground1.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=ground&number=1">
-                                <h5 class="card-title">Public Transport</h5>
-                                <p class="card-text">There is a robust public bus system to help get people around the island. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                        <div class="col h-auto m-2 card backgroundImg border-0"
-                             style="background-image: url('images/ground2.jpg');">
-                            <a class="card-img-overlay text-white text-decoration-none"
-                               style="background-color: rgba(20, 20, 20, 0.60);"
-                               href="tier3.html?type=ground&number=2">
-                                <h5 class="card-title">Private Transport</h5>
-                                <p class="card-text">There are many privately owned modes of transport from Taxi's to rental cars. <strong>Click For More Info!</strong></p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</main>
-
-<footer class="mt-auto">
-
-</footer>
+    </footer>
 
 <!--import bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

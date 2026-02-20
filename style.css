@@ -179,3 +179,10 @@
 .breadcrumb-link:hover {
     text-decoration: underline;
 }
+.footerNav {
+    color: white;
+}
+.footerNav:hover {
+    color: #BDBDBD;
+    transition: color 0.25s ease-in-out;
+}

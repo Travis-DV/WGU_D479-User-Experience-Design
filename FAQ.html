@@ -9,56 +9,94 @@
 </head>
 <body>
 
-<header>
-  <nav class="navbar navbar-expand-lg pt-0 pb-0" style="background-color: #003B6D;">
-    <div class="container-fluid h-100 gx-0 pe-2">
-      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100">
-          <li class="nav-item h-100">
-            <a class="nav-link h-100 fw-bold text-white" href="index.html" id="home">Home</a>
-          </li>
-          <li class="nav-item h-100">
-            <a class="nav-link h-100 fw-bold text-white" href="index.html#food" id="taste">Taste</a>
-          </li>
-          <li class="nav-item h-100">
-            <a class="nav-link h-100 fw-bold text-white" href="index.html#see">See</a>
-          </li>
-          <li class="nav-item h-100">
-            <a class="nav-link h-100 fw-bold text-white" href="index.html#plan">Plan</a>
-          </li>
-          <li class="nav-item h-100">
-            <a class="nav-link h-100 fw-bold text-white active" aria-current="page" href="FAQ.html">FAQs</a>
-          </li>
-        </ul>
-        <form class="d-flex pb-1">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
+  <header>
+    <nav class="navbar navbar-expand-lg pt-0 pb-0" style="background-color: #003B6D;">
+      <div class="container-fluid h-100 gx-0 pe-2">
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100">
+            <li class="nav-item h-100">
+              <a class="nav-link h-100 fw-bold text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item h-100">
+              <a class="nav-link h-100 fw-bold text-white" href="index.html#food">Taste</a>
+            </li>
+            <li class="nav-item h-100">
+              <a class="nav-link h-100 fw-bold text-white" href="index.html#see">See</a>
+            </li>
+            <li class="nav-item h-100">
+              <a class="nav-link h-100 fw-bold text-white" href="index.html#plan">Plan</a>
+            </li>
+            <li class="nav-item h-100">
+              <a class="nav-link h-100 fw-bold text-white active" aria-current="page" href="FAQ.html">FAQs</a>
+            </li>
+          </ul>
+          <form class="d-flex pb-1">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
       </div>
+    </nav>
+
+    <nav aria-label="breadcrumb"
+         style="background-color: #BDBDBD;
+               --bs-breadcrumb-divider: '>';
+               border-bottom: 2px solid darkgray;
+               font-size: small;">
+      <ol class="breadcrumb m-0 ps-2">
+        <li class="breadcrumb-item">
+          <a class="fw-bold breadcrumb-link" href="index.html" style="color: #003B6D;">Home
+          </a>
+        </li>
+        <li class="breadcrumb-item active">
+          <a class="fw-bold breadcrumb-link" href="FAQ.html" aria-current="page" style="color: #003B6D;">FAQs
+          </a>
+        </li>
+      </ol>
+    </nav>
+
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer class="w-100 mw-100 pt-2 pb-1 mt-auto"
+          style="background-color: #003B6D;">
+    <div class="container p0 m-0  w-100 mw-100">
+      <ul class="nav justify-content-center border-bottom p-2 m-0">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 footerNav">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#food" class="nav-link px-2 footerNav">
+            Taste
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#see" class="nav-link px-2 footerNav">
+            See
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#plan" class="nav-link px-2 footerNav">
+            Plan
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="FAQ.html" class="nav-link px-2 footerNav">
+            FAQs
+          </a>
+        </li>
+      </ul>
+      <p class="text-center text-white pt-2">© 2026 Taniti Island</p>
     </div>
-  </nav>
-
-  <nav aria-label="breadcrumb"
-       style="background-color: #BDBDBD;
-             --bs-breadcrumb-divider: '>';
-             border-bottom: 2px solid darkgray;
-             font-size: small;">
-    <ol class="breadcrumb m-0 ps-2">
-      <li class="breadcrumb-item">
-        <a class="fw-bold breadcrumb-link" href="index.html" style="color: #003B6D;">Home
-        </a>
-      </li>
-      <li class="breadcrumb-item active">
-        <a class="fw-bold breadcrumb-link" href="FAQ.html" aria-current="page" style="color: #003B6D;">FAQs
-        </a>
-      </li>
-    </ol>
-  </nav>
-
-</header>
+  </footer>
 
 <script src="PopulateT3.js"></script>
 <!--import bootstrap-->
