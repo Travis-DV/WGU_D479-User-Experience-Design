@@ -57,14 +57,96 @@
 
   </header>
 
-  <main>
+  <div class="mh-100">
+      <aside
+          class="float-start px-1"
+          style="border: gray 0.25em solid">
 
-  </main>
+          <h2 class="px-1">
+              Filters:
+          </h2>
+          <div class="filterBottomBorder px-2">
+              <h4>Price:</h4>
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="priceThree" checked>
+                  <label class="form-check-label" for="priceThree">$$$</label>
+              </div>
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="priceTwo" checked>
+                  <label class="form-check-label" for="priceTwo">$$</label>
+              </div>
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="priceOne" checked>
+                  <label class="form-check-label" for="priceOne">$</label>
+              </div>
+          </div>
+          <div class="px-2">
+              <h4>Minimum<br>Stars:</h4>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="stars" id="5star" value="5star">
+                  <label class="form-check-label" for="5star">
+                      5
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="stars" id="4star" value="4star" checked>
+                  <label class="form-check-label" for="4star">
+                     4
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="stars" id="3star" value="3star">
+                  <label class="form-check-label" for="3star">
+                      3
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="stars" id="2star" value="2star">
+                  <label class="form-check-label" for="2star">
+                      2
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="stars" id="1star" value="1star">
+                  <label class="form-check-label" for="1star">
+                      1
+                  </label>
+              </div>
+          </div>
+      </aside>
 
-  <footer class="w-100 mw-100 pt-2 pb-1 mt-auto"
-          style="background-color: #003B6D;">
-      <div class="container p0 m-0  w-100 mw-100">
-          <ul class="nav justify-content-center border-bottom p-2 m-0">
+
+      <main class="container">
+          <div class="h-100 row p-2" id="main">
+              <div class="card t3card col-md">
+                  <img id="img1" src="images/restaurant1.jpg" class="card-img-top" alt="...">
+                  <div id="overlay1" class="card-img-overlay p-0 d-flex flex-column">
+                      <h5 class="card-title t3CardTitle w-auto pt-1 ps-1">Card title</h5>
+                      <div class="mt-auto p-1 d-flex flex-row">
+                          <div id="starHolder" class="w-10">
+                              <img src="/images/fullStar.svg" alt="A star icon that is filled in."
+                                   style="max-height: 1rem">
+                          </div>
+                          <div id="moneyHolder" class="w-50 ms-auto">
+                              <img src="/images/money.svg" alt="A star icon that is filled in."
+                                   style="max-height: 1rem">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <p class="card-text">Description Text</p>
+                  </div>
+
+              </div>
+          </div>
+      </main>
+  </div>
+
+  <footer class="w-100 mw-100 p-0"
+  style="background-image: url('images/beach2.jpg')">
+      <div class="container m-0 w-100 mw-100 py-2 px-0"
+           style="background-color: rgba(20, 20, 20, 0.60); height: 100%">
+          <ul class="nav justify-content-center border-bottom p-2 m-0 h-100">
               <li class="nav-item">
                   <a href="index.html" class="nav-link px-2 footerNav">
                       Home

@@ -29,6 +29,10 @@
         height: 12.5vh;
         width: 98vw;
     }
+
+    .t3card {
+
+    }
 }
 @media only screen and (min-aspect-ratio: 4/3) {
     .indexFold {
@@ -50,6 +54,10 @@
     .t3PtTo, .t3PtLog, .t3PtGro {
         height: 25vh;
         width: 98vw;
+    }
+
+    .t3card {
+        max-width: 30vw;
     }
 }
 
@@ -123,7 +131,7 @@
     color: white;
     border: 0.25rem solid white;
 
-    background-color: rgba(50, 50, 50, 0.75);
+    background-color: rgba(150, 150, 150, 0.75);
     transition: background-color 0.25s;
 }
 
@@ -185,4 +193,22 @@
 .footerNav:hover {
     color: #BDBDBD;
     transition: color 0.25s ease-in-out;
+}
+
+.filterBottomBorder {
+    border-bottom: 0.25rem lightgray dashed;
+}
+
+.t3CardTitle {
+    color: white;
+    background-image: linear-gradient(to right, black, black, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    font-weight: bold;
+}
+.t3card {
+    padding: 0;
+    margin: 0.25rem;
+}
+.iconDiv {
+    height: 2.5rem;
+    background-image: linear-gradient(to top, white, white, white, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }

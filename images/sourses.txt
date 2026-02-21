@@ -22,3 +22,6 @@ Hotel2: https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surroun
 Hotel3: https://unsplash.com/photos/brown-wooden-lounge-chairs-on-brown-wooden-dock-during-daytime-xEaAoizNFV8
 Ground1: https://unsplash.com/photos/people-sitting-down-inside-vehicle-nd5oU1Duhf0
 Ground2: https://unsplash.com/photos/shallow-focus-photography-of-taxi-signage-G8wPrJyNqWQ
+Full Star: https://fontawesome.com/icons/star?f=classic&s=regular
+Empty Star: https://fontawesome.com/icons/star?f=classic&s=regular
+Money: https://fontawesome.com/icons/dollar-sign?f=classic&s=solid
