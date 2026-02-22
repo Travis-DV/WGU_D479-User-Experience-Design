@@ -70,7 +70,7 @@ for (let i = 0; i < items.length; i++) {
 
     let cardImg = document.createElement("img");
     cardImg.classList.add("card-img-top");
-    cardImg.src = "images/" + items[i]["imageSrc"] + ".jpg";
+    cardImg.src = "images/" + type + "/" + items[i]["imageSrc"] + ".jpg";
     cardImg.alt = items[i]["imageAlt"];
     cardDiv.append(cardImg);
 
