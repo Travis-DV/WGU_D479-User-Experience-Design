@@ -17,83 +17,128 @@ const dictionary = {
                 "title": "American 1",
                 "stars": 5, //out of 5
                 "money": 3, //out of 3
-                "description": "The most popular restaurant on the island"
+                "description": "The most popular restaurant on the island."
             },
             { //2
                 "imageSrc": "restaurant2",
-                "imageAlt": "Four cooked fish in a row on a plate getting further from the camera",
+                "imageAlt": "Four cooked fish in a row on a plate getting further from the camera.",
                 "title": "Fish 1",
                 "stars": 4, //out of 5
                 "money": 3, //out of 3
-                "description": "The second most popular restaurant on the island"
+                "description": "The second most popular restaurant on the island."
             },
             { //3
                 "imageSrc": "restaurant3",
-                "imageAlt": "A cooked fish resting on top of vegetables",
+                "imageAlt": "A cooked fish resting on top of vegetables.",
                 "title": "Fish 2",
                 "stars": 1, //out of 5
                 "money": 2, //out of 3
-                "description": "The third most popular restaurant on the island"
+                "description": "The third most popular restaurant on the island."
             },
             { //4
                 "imageSrc": "restaurant4",
-                "imageAlt": "Roast beef sandwich with coleslaw on a long bun",
+                "imageAlt": "Roast beef sandwich with coleslaw on a long bun.",
                 "title": "American 2",
                 "stars": 5, //out of 5
                 "money": 1, //out of 3
-                "description": "The fourth most popular restaurant on the island"
+                "description": "The fourth most popular restaurant on the island."
             },
             { //5
                 "imageSrc": "restaurant5",
-                "imageAlt": "Multiple plates of food of multiple types",
+                "imageAlt": "Multiple plates of food of multiple types.",
                 "title": "Pan-Asian 1",
                 "stars": 4, //out of 5
                 "money": 2, //out of 3
-                "description": "The Fifth most popular restaurant on the island"
+                "description": "The Fifth most popular restaurant on the island."
             },
             { //6
                 "imageSrc": "restaurant6",
-                "imageAlt": "Multiple plates of food of multiple types",
+                "imageAlt": "Multiple plates of food of multiple types.",
                 "title": "Pan-Asian 2",
                 "stars": 2, //out of 5
                 "money": 1, //out of 3
-                "description": "The Sixth most popular restaurant on the island"
+                "description": "The Sixth most popular restaurant on the island."
             },
             { //7
                 "imageSrc": "restaurant7",
-                "imageAlt": "A white plate topped with two pieces of bread",
+                "imageAlt": "A white plate topped with two pieces of bread.",
                 "title": "American 3",
                 "stars": 5, //out of 5
                 "money": 2, //out of 3
-                "description": "The Seventh most popular restaurant on the island"
+                "description": "The Seventh most popular restaurant on the island."
             },
             { //8
                 "imageSrc": "restaurant8",
-                "imageAlt": "A fish sitting on a plate of souse and potatoes",
+                "imageAlt": "A fish sitting on a plate of souse and potatoes.",
                 "title": "Fish 3",
                 "stars": 5, //out of 5
                 "money": 3, //out of 3
-                "description": "The Eighth most popular restaurant on the island"
+                "description": "The Eighth most popular restaurant on the island."
             },
             { //9
                 "imageSrc": "restaurant9",
-                "imageAlt": "A plate of countless sushi",
+                "imageAlt": "A plate of countless sushi.",
                 "title": "Fish 4",
                 "stars": 3, //out of 5
                 "money": 3, //out of 3
-                "description": "The Ninth most popular restaurant on the island"
+                "description": "The Ninth most popular restaurant on the island."
             },
-            { //8
+            { //10
                 "imageSrc": "restaurant10",
-                "imageAlt": "15 fish on a smoking rack",
+                "imageAlt": "15 fish on a smoking rack.",
                 "title": "Fish 5",
                 "stars": 1, //out of 5
                 "money": 3, //out of 3
-                "description": "The Tenth most popular restaurant on the island"
+                "description": "The Tenth most popular restaurant on the island."
             },
         ]
     },
-    "grocery": {},
+    "grocery": {
+        "navId": "tasteNav",
+        "breadcrumbName": "Restaurants",
+        "items": [
+            { //1
+                "imageSrc": "grocery1",
+                "imageAlt": "A mildly run down deli and market.",
+                "title": "Grocery 1",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "The most popular grocery store on the island."
+            },
+            { //2
+                "imageSrc": "grocery2",
+                "imageAlt": "A brick bland market face named Waller's Market.",
+                "title": "Grocery 2",
+                "stars": 3, //out of 5
+                "money": 1, //out of 3
+                "description": "The second most popular grocery store."
+            },
+            { //3
+                "imageSrc": "grocery3",
+                "imageAlt": "A wide open store with many aisles of food.",
+                "title": "Supermarket 1",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "The most popular supermarket."
+            },
+            { //4
+                "imageSrc": "grocery4",
+                "imageAlt": "One long aisle packed with food.",
+                "title": "Supermarket 2",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "The second most popular supermarket."
+            },
+            { //5
+                "imageSrc": "grocery5",
+                "imageAlt": "A seven eleven coner store.",
+                "title": "24h Convenience Store 1",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "The only 24h store on the island."
+            },
+        ]
+    },
     "ent": {},
     "sight": {},
     "travel": {},
