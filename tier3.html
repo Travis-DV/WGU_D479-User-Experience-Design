@@ -57,7 +57,7 @@
 
   </header>
 
-  <div class="mh-100">
+  <div>
       <aside
           class="float-start px-1"
           style="border: gray 0.25em solid">
@@ -66,48 +66,54 @@
               Filters:
           </h2>
           <div class="filterBottomBorder px-2">
-              <h4>Price:</h4>
-              <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" id="priceThree" checked>
-                  <label class="form-check-label" for="priceThree">$$$</label>
+              <h4>Max Price:</h4>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="money" id="3money" value="3" checked>
+                  <label class="form-check-label" for="3money">
+                      $$$
+                  </label>
               </div>
-              <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" id="priceTwo" checked>
-                  <label class="form-check-label" for="priceTwo">$$</label>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="money" id="2money" value="2">
+                  <label class="form-check-label" for="2money">
+                      $$
+                  </label>
               </div>
-              <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" id="priceOne" checked>
-                  <label class="form-check-label" for="priceOne">$</label>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="money" id="1money" value="1">
+                  <label class="form-check-label" for="1money">
+                      $
+                  </label>
               </div>
           </div>
           <div class="px-2">
               <h4>Minimum<br>Stars:</h4>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="stars" id="5star" value="5star">
+                  <input class="form-check-input" type="radio" name="stars" id="5star" value="5">
                   <label class="form-check-label" for="5star">
                       5
                   </label>
               </div>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="stars" id="4star" value="4star" checked>
+                  <input class="form-check-input" type="radio" name="stars" id="4star" value="4" checked>
                   <label class="form-check-label" for="4star">
                      4
                   </label>
               </div>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="stars" id="3star" value="3star">
+                  <input class="form-check-input" type="radio" name="stars" id="3star" value="3">
                   <label class="form-check-label" for="3star">
                       3
                   </label>
               </div>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="stars" id="2star" value="2star">
+                  <input class="form-check-input" type="radio" name="stars" id="2star" value="2">
                   <label class="form-check-label" for="2star">
                       2
                   </label>
               </div>
               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="stars" id="1star" value="1star">
+                  <input class="form-check-input" type="radio" name="stars" id="1star" value="1">
                   <label class="form-check-label" for="1star">
                       1
                   </label>
@@ -116,8 +122,8 @@
       </aside>
 
 
-      <main class="container">
-          <div class="h-100 row p-2" id="main">
+      <main class="container t3Main">
+          <div class="t3Main row p-2" id="main">
 
           </div>
       </main>
