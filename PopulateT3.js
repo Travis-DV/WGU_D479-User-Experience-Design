@@ -18,8 +18,15 @@ const dictionary = {
                 "stars": 5, //out of 5
                 "money": 3, //out of 3
                 "description": "The most popular restaurant on the island"
-
-            }
+            },
+            {
+                "imageSrc": "restaurant2",
+                "imageAlt": "Two hamburgers next to each other on a cutting board.",
+                "title": "Restaurant 1",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "The most popular restaurant on the island"
+            },
         ]
     },
     "grocery": {},
