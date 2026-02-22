@@ -107,12 +107,12 @@ for (let i = 0; i < items.length; i++) {
         starImg.classList.add("mt-auto");
 
         if (s <= (items[i]["stars"]-1)) {
-            starImg.src = "/images/fullStar.svg";
+            starImg.src = "images/fullStar.svg";
             starImg.alt = "A star icon that is filled in.";
             starImg.style.maxHeight = "1rem";
         }
         else {
-            starImg.src = "/images/emptyStar.svg";
+            starImg.src = "images/emptyStar.svg";
             starImg.alt = "A star icon that is not filled in.";
             starImg.style.maxHeight = "1rem";
         }
@@ -129,7 +129,7 @@ for (let i = 0; i < items.length; i++) {
     for (let m = 0; m < items[i]["money"]; m++) {
         let moneyImg = document.createElement("img");
         moneyImg.classList.add("mt-auto");
-        moneyImg.src = "/images/money.svg";
+        moneyImg.src = "images/money.svg";
         moneyImg.alt = "A star icon that is filled in.";
         moneyImg.style.maxHeight = "1rem";
         moneyDiv.append(moneyImg);
