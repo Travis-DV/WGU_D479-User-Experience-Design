@@ -37,6 +37,11 @@ Enta: https://unsplash.com/photos/people-performing-on-stage-near-partying-peopl
 Sight1: https://unsplash.com/photos/brown-and-green-rock-formation-on-sea-under-blue-sky-during-daytime-NM_EUCSdbEY
 Sight2: https://unsplash.com/photos/a-yellow-double-decker-bus-with-colorful-murals-HD85flZ_oiE
 Sighta: https://unsplash.com/photos/man-in-black-jacket-riding-bicycle-on-gray-asphalt-road-during-daytime-P1qDLYYoWMQ
+Sight3: https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-buildings-during-daytime-wJQ5dcMcdUs
+Sight4: https://unsplash.com/photos/palm-tree-near-seashore-Siuwr3uCir0
+Sight5: https://unsplash.com/photos/brown-and-black-mountain-under-white-clouds-80x3QULJDN4
+Sight6: https://unsplash.com/photos/body-of-water-near-trees-and-mountain-cliff-during-daytime-TWoL-QCZubY
+Sight7: https://unsplash.com/photos/people-in-boat-on-body-of-water-near-brown-rock-mountains-I7Av2ud_1HY
 Plan1: https://unsplash.com/photos/gray-airplane-on-parking-RSYBi_1fhfM
 Travel1: https://unsplash.com/photos/window-view-of-airplane-during-golden-hour-rn-NLirHQPY
 Travel2: https://unsplash.com/photos/a-cruise-ship-in-a-body-of-water-hQUdei-DzlQ

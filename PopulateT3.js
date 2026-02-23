@@ -273,7 +273,76 @@ const dictionary = {
             },
         ]
     },
-    "sight": {},
+    "sight": {
+        "navId": "seeNav",
+        "breadcrumbName": "Sight Seeing",
+        "items": [
+            { //1
+                "imageSrc": "sight1",
+                "imageAlt": "A long white sand beach stretching away from the camera.",
+                "title": "Yellow Leaf Bay Beach",
+                "stars": 5, //out of 5
+                "money": 1, //out of 3
+                "description": "The most popular of many beaches around Yellow Leaf Bay."
+            },
+            { //2
+                "imageSrc": "sight2",
+                "imageAlt": "A bright yellow painted bus driving down the road.",
+                "title": "Bus Tour",
+                "stars": 5, //out of 5
+                "money": 2, //out of 3
+                "description": "Take any of many bus tours around the island"
+            },
+            { //3
+                "imageSrc": "sighta",
+                "imageAlt": "A man biking down a path in a forest.",
+                "title": "Rain Forest Hiking",
+                "stars": 4, //out of 5
+                "money": 1, //out of 3
+                "description": "Do any of the many hikes into the rain forest on the island."
+            },
+            { //4
+                "imageSrc": "sight3",
+                "imageAlt": "A wide road with many street parked cars on the sides.",
+                "title": "Taniti City",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "Taniti City is one of the most popular sights on the island."
+            },
+            { //5
+                "imageSrc": "sight4",
+                "imageAlt": "A bright beach with the blue ocean stretching off into the distance.",
+                "title": "Beach 2",
+                "stars": 4, //out of 5
+                "money": 1, //out of 3
+                "description": "The second most popular beach on the island."
+            },
+            { //6
+                "imageSrc": "sight5",
+                "imageAlt": "A volcano slowly flowing out lava.",
+                "title": "Volcano",
+                "stars": 5, //out of 5
+                "money": 2, //out of 3
+                "description": "Hike up to the volcano."
+            },
+            { //7
+                "imageSrc": "sight6",
+                "imageAlt": "A beach inset behind some cliffs and hills.",
+                "title": "Beach 3",
+                "stars": 5, //out of 5
+                "money": 2, //out of 3
+                "description": "The third most popular beach on the island."
+            },
+            { //8
+                "imageSrc": "sight7",
+                "imageAlt": "A group of people sitting on a boat that is moving around some cliffs.",
+                "title": "Boat tour.",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "Go on a boat tour around the island."
+            },
+        ]
+    },
     "travel": {},
     "hotel": {},
     "ground": {}
