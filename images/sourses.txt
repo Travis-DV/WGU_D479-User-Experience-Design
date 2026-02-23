@@ -21,6 +21,18 @@ Grocerya: https://unsplash.com/photos/woman-in-white-coat-holding-green-shopping
 See1: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/BoraBora_SEtienne.jpg/1280px-BoraBora_SEtienne.jpg
 Ent1: https://unsplash.com/photos/blue-helicopter-in-the-air-ipckz_9zDXY
 Ent2: https://unsplash.com/photos/a-woman-snorkeling-with-a-school-of-fish-np5FePVgH7Q
+ZipLine1: https://unsplash.com/photos/a-man-riding-a-zip-line-in-the-middle-of-a-forest-uw5aA3zalt4
+Golf1: https://unsplash.com/photos/green-grass-field-near-green-trees-under-white-sky-during-daytime-fZL3EN4aJUI
+History1: https://unsplash.com/photos/a-large-building-with-a-sign-in-front-of-it-dJXRMgAUzdI
+Art1:https://unsplash.com/photos/woman-in-black-long-sleeve-shirt-sitting-on-floor-g55bG1O5Lf0
+Brew1: https://unsplash.com/photos/brown-cardboard-box-near-gray-tanks-RfL3l-I1zhc
+Arc1: https://unsplash.com/photos/arcade-game-station-8Gdayy2Lhi0
+Bowl: https://unsplash.com/photos/bowl-storefront-2dh9QsIQY20
+Bar1: https://unsplash.com/photos/people-inside-bar-2GNBoMgKYEo
+Bar2: https://unsplash.com/photos/man-pouring-drink-j5SwUbcgeyA
+Bar3: https://unsplash.com/photos/woman-sits-on-the-bar-jfoIIFLw3_Y
+Bar4: https://unsplash.com/photos/person-holding-drinking-glass-JCIJnIXv7SE
+Movie1: https://unsplash.com/photos/photography-of-cinema-atsUqIm3wxo
 Enta: https://unsplash.com/photos/people-performing-on-stage-near-partying-people-TIdqm0Cl8UA
 Sight1: https://unsplash.com/photos/brown-and-green-rock-formation-on-sea-under-blue-sky-during-daytime-NM_EUCSdbEY
 Sight2: https://unsplash.com/photos/a-yellow-double-decker-bus-with-colorful-murals-HD85flZ_oiE

@@ -139,7 +139,140 @@ const dictionary = {
             },
         ]
     },
-    "ent": {},
+    "ent": {
+        "navId": "seeNav",
+        "breadcrumbName": "Entertainment",
+        "items": [
+            { //1
+                "imageSrc": "ent1",
+                "imageAlt": "A helicopter high in the sky above a mountain.",
+                "title": "Helicopter Ride",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Take a guided helicopter tour of the island."
+            },
+            { //2
+                "imageSrc": "ent2",
+                "imageAlt": "A woman swimming underwater with flippers and a snorkel.",
+                "title": "Snorkeling",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "Go snorkeling in the scenic bay."
+            },
+            { //3
+                "imageSrc": "zipline1",
+                "imageAlt": "A woman zip lining through the jungle.",
+                "title": "Zip Lining",
+                "stars": 4, //out of 5
+                "money": 3, //out of 3
+                "description": "Go zip lining through the jungle."
+            },
+            { //4
+                "imageSrc": "golf1",
+                "imageAlt": "An open grassy field with sand and water filled pits.",
+                "title": "Golf 1 (Coming Soon!)",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Enjoy our new 9 hole golf course coming soon!"
+            },
+            { //5
+                "imageSrc": "history1",
+                "imageAlt": "A white and tan building.",
+                "title": "History Museum",
+                "stars": 4, //out of 5
+                "money": 1, //out of 3
+                "description": "Our history museum."
+            },
+            { //6
+                "imageSrc": "art1",
+                "imageAlt": "A woman with her back turned to the camera looking at seven art pieces.",
+                "title": "Art Museum",
+                "stars": 4, //out of 5
+                "money": 1, //out of 3
+                "description": "Our art museum."
+            },
+            { //7
+                "imageSrc": "enta",
+                "imageAlt": "A club with lots of dancing people and purple lazers.",
+                "title": "Dance Club",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "The only late night dance club."
+            },
+            { //8
+                "imageSrc": "brew1",
+                "imageAlt": "A line of distillery tanks in a row.",
+                "title": "Micro Brewery",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "Get a drink at the micro brewery."
+            },
+            { //9
+                "imageSrc": "arc1",
+                "imageAlt": "A bunch of bright and colorful game machines in a dark room.",
+                "title": "Arcade",
+                "stars": 3, //out of 5
+                "money": 3, //out of 3
+                "description": "The arcade."
+            },
+            { //10
+                "imageSrc": "bowl1",
+                "imageAlt": "The face of a bowling alley.",
+                "title": "Bowling",
+                "stars": 3, //out of 5
+                "money": 3, //out of 3
+                "description": "The bowling alley."
+            },
+            { //11
+                "imageSrc": "bar1",
+                "imageAlt": "A group of people standing in front of a yellow and red lit bar.",
+                "title": "Bar 1",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "The most popular bar on the island."
+            },
+            { //12
+                "imageSrc": "bar2",
+                "imageAlt": "A man filling two cups with a cocktail.",
+                "title": "Bar 2",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "The second most popular bar on the island."
+            },
+            { //13
+                "imageSrc": "movie1",
+                "imageAlt": "The face of a movie theater named central cinema.",
+                "title": "Movie theater",
+                "stars": 2, //out of 5
+                "money": 3, //out of 3
+                "description": "The movie theater."
+            },
+            { //14
+                "imageSrc": "bar3",
+                "imageAlt": "A woman leaning away from the bar as a drink is filled nex to her.",
+                "title": "Bar 3",
+                "stars": 2, //out of 5
+                "money": 1, //out of 3
+                "description": "The third most popular bar on the island."
+            },
+            { //15
+                "imageSrc": "fish1",
+                "imageAlt": "the entry to a dock named kure beach pier.",
+                "title": "Fishing tours",
+                "stars": 2, //out of 5
+                "money": 1, //out of 3
+                "description": "Go on fishing tours to find the best spots."
+            },
+            { //16
+                "imageSrc": "bar4",
+                "imageAlt": "A man poring a draft bear.",
+                "title": "Bar 4",
+                "stars": 1, //out of 5
+                "money": 3, //out of 3
+                "description": "The third most popular bar on the island."
+            },
+        ]
+    },
     "sight": {},
     "travel": {},
     "hotel": {},
