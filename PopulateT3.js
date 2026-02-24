@@ -95,7 +95,7 @@ const dictionary = {
     },
     "grocery": {
         "navId": "tasteNav",
-        "breadcrumbName": "Restaurants",
+        "breadcrumbName": "Grocery Stores",
         "items": [
             { //1
                 "imageSrc": "grocery1",
@@ -517,6 +517,9 @@ breadcrumbLinkElement.textContent = dictionary[type]["breadcrumbName"];
 breadcrumbListElement.append(breadcrumbLinkElement);
 let breadcrumb = document.getElementById("breadcrumbList");
 breadcrumb.append(breadcrumbListElement);
+
+const title = document.getElementById("t3Title");
+title.textContent = "Taniti: " + dictionary[type]["breadcrumbName"];
 
 function everything() {
 
