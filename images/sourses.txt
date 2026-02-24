@@ -47,6 +47,13 @@ Travel1: https://unsplash.com/photos/window-view-of-airplane-during-golden-hour-
 Travel2: https://unsplash.com/photos/a-cruise-ship-in-a-body-of-water-hQUdei-DzlQ
 Hotel1: https://unsplash.com/photos/a-large-swimming-pool-surrounded-by-palm-trees-_pPHgeHz1uk
 Hotel2: https://unsplash.com/photos/brown-wooden-lounge-chairs-near-pool-surrounded-by-palm-trees-vmIWr0NnpCQ
+Hotel3: https://unsplash.com/photos/person-in-swimming-pool-during-daytime-rlwE8f8anOc
+Hotel4: https://unsplash.com/photos/coconut-palm-trees-in-hotel-lobby-_dS27XGgRyQ
+Hotel5: https://unsplash.com/photos/brown-wooden-table-and-chairs-on-brown-wooden-deck-near-body-of-water-during-daytime-TAgGZWz6Qg8
+Hotel6: https://unsplash.com/photos/photo-of-brown-bench-near-swimming-pool-Koei_7yYtIo
+Hotel7: https://unsplash.com/photos/white-building-photographt-MXbM1NrRqtI
+Hotel8: https://unsplash.com/photos/a-room-filled-with-lots-of-bunk-beds-next-to-a-window-TzMGehZmocI
+Hotel9: https://unsplash.com/photos/white-and-brown-concrete-building-CepDpEiALqM
 Hotela: https://unsplash.com/photos/brown-wooden-lounge-chairs-on-brown-wooden-dock-during-daytime-xEaAoizNFV8
 Ground1: https://unsplash.com/photos/people-sitting-down-inside-vehicle-nd5oU1Duhf0
 Ground2: https://unsplash.com/photos/shallow-focus-photography-of-taxi-signage-G8wPrJyNqWQ

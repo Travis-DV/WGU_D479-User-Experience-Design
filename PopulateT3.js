@@ -343,9 +343,127 @@ const dictionary = {
             },
         ]
     },
-    "travel": {},
-    "hotel": {},
-    "ground": {}
+    "travel": {
+        "navId": "planNav",
+        "breadcrumbName": "Travel to Taniti",
+        "items": [
+            { //1
+                "imageSrc": "travel1",
+                "imageAlt": "Looking out on the wing of an aeroplane as the sun sets in the distance.",
+                "title": "Fly",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Fly into Taniti International Airport (expansion coming soon!)"
+            },
+            { //2
+                "imageSrc": "travel2",
+                "imageAlt": "A big cruise ship gonging down a river.",
+                "title": "Cruise",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Take a cruise ship to the island."
+            },
+        ]
+    },
+    "hotel": {
+        "navId": "planNav",
+        "breadcrumbName": "Stay in Taniti",
+        "items": [
+            { //1
+                "imageSrc": "hotel1",
+                "imageAlt": "A white modern hotel with a pool out front.",
+                "title": "Resort",
+                "stars": 4, //out of 5
+                "money": 3, //out of 3
+                "description": "The most popular resort on the island."
+            },
+            { //2
+                "imageSrc": "hotel1",
+                "imageAlt": "A big tan hotel looking out over its pool.",
+                "title": "Hotel 1",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "The most popular hotel on the island."
+            },
+            { //3
+                "imageSrc": "hotel3",
+                "imageAlt": "A wood hotel with a pool to the left of the picture and the sea in the background.",
+                "title": "Bed and breakfast 1",
+                "stars": 4, //out of 5
+                "money": 3, //out of 3
+                "description": "The most popular of many new bed and breakfasts."
+            },
+            { //4
+                "imageSrc": "hotel4",
+                "imageAlt": "A four story white hotel with nice balcony's for people.",
+                "title": "Hotel 2",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": ""
+            },
+            { //5
+                "imageSrc": "hotel5",
+                "imageAlt": "A bunch of people sitting on chair in front of a pool that is in front of the sea.",
+                "title": "Hotel 3",
+                "stars": 4, //out of 5
+                "money": 3, //out of 3
+                "description": "The third most popular hotel."
+            },
+            { //6
+                "imageSrc": "hotel6",
+                "imageAlt": "A group of small resort buildings connected with a pool.",
+                "title": "Bed and breakfast 2",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "The second most popular bed and breakfast."
+            },
+            { //7
+                "imageSrc": "hotel7",
+                "imageAlt": "A two story white semicircle hotel.",
+                "title": "Hotel 4",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "The fourth most popular hotel on the island."
+            },
+            { //8
+                "imageSrc": "hotel8",
+                "imageAlt": "A room filled with lots of bunk beds next to a window.",
+                "title": "Hostel",
+                "stars": 3, //out of 5
+                "money": 1, //out of 3
+                "description": "The only hostel on the island."
+            },
+            { //9
+                "imageSrc": "hotel9",
+                "imageAlt": "A tan four story hotel looking over a court yard with a fountain.",
+                "title": "Hotel 5",
+                "stars": 3, //out of 5
+                "money": 3, //out of 3
+                "description": "The fifth most popular hotel on the island."
+            },
+        ]},
+    "ground": {
+        "navId": "planNav",
+        "breadcrumbName": "Travel around Taniti",
+        "items": [
+            { //1
+                "imageSrc": "travel1",
+                "imageAlt": "Looking out on the wing of an aeroplane as the sun sets in the distance.",
+                "title": "Fly",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Fly into Taniti International Airport (expansion coming soon!)"
+            },
+            { //2
+                "imageSrc": "travel2",
+                "imageAlt": "A big cruise ship gonging down a river.",
+                "title": "Cruise",
+                "stars": 5, //out of 5
+                "money": 3, //out of 3
+                "description": "Take a cruise ship to the island."
+            },
+        ]
+    }
 };
 
 if (!Object.hasOwn(dictionary, type)) {
