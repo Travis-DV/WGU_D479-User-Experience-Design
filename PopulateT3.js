@@ -447,20 +447,44 @@ const dictionary = {
         "breadcrumbName": "Travel around Taniti",
         "items": [
             { //1
-                "imageSrc": "travel1",
-                "imageAlt": "Looking out on the wing of an aeroplane as the sun sets in the distance.",
-                "title": "Fly",
-                "stars": 5, //out of 5
-                "money": 3, //out of 3
-                "description": "Fly into Taniti International Airport (expansion coming soon!)"
+                "imageSrc": "ground1",
+                "imageAlt": "The inside of a public bus.",
+                "title": "Public Busses",
+                "stars": 4, //out of 5
+                "money": 1, //out of 3
+                "description": "Take any of our free, clean, and safe public busses that run from 5 a.m. to 11 p.m."
             },
             { //2
-                "imageSrc": "travel2",
-                "imageAlt": "A big cruise ship gonging down a river.",
-                "title": "Cruise",
-                "stars": 5, //out of 5
+                "imageSrc": "ground2",
+                "imageAlt": "A row of taxi cab car signs.",
+                "title": "Taxi",
+                "stars": 4, //out of 5
+                "money": 2, //out of 3
+                "description": "Call a Taxi"
+            },
+            { //3
+                "imageSrc": "ground3",
+                "imageAlt": "A green bus parked on a hill.",
+                "title": "Private Bus",
+                "stars": 3, //out of 5
+                "money": 2, //out of 3
+                "description": "Get on a paid private bus to get to any parts of the island the public busses don't serve."
+            },
+            { //4
+                "imageSrc": "ground4",
+                "imageAlt": "A row of SUV cars.",
+                "title": "Rent a Car",
+                "stars": 3, //out of 5
                 "money": 3, //out of 3
-                "description": "Take a cruise ship to the island."
+                "description": "Rent a car for your time on the island."
+            },
+            { //5
+                "imageSrc": "ground5",
+                "imageAlt": "A row of yellow bikes.",
+                "title": "Rent a Bike",
+                "stars": 5, //out of 5
+                "money": 1, //out of 3
+                "description": "Rent a bike and helmet from one of several vendors. (Helmets are required by law!)"
             },
         ]
     }
